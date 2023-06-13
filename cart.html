@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>корзина</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230530133809">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__top top-header">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<a href="" class="top-header__logo">
+						<div class="top-header__img">
+							<picture><source srcset="img/main/header/logo.webp" type="image/webp"><img src="img/main/header/logo.png" alt=""></picture>
+						</div>
+						<div class="top-header__name">Производство сухой и
+							строганной доски</div>
+					</a>
+					<div class="top-header__search">
+						<div class="top-header__inp">
+							<input autocomplete="off" type="text" name="form[]" placeholder="Введите слово" class="top-header__input">
+							<a href="" class="top-header__searchlink _icon-search"></a>
+						</div>
+						<button type="button" class="top-header__button _icon-search"></button>
+					</div>
+					<div class="top-header__contacts contacts-header">
+						<div class="contacts-header__contacts">
+							<a href="tel:88127407606" class="contacts-header__tel">+ 7 (812) 740-76-06</a>
+							<button type="button" class="contacts-header__button">Заказать звонок</button>
+						</div>
+						<a href="" class="contacts-header__telegramm">
+							<img src="img/icons/telegramm.svg" alt="">
+						</a>
+						<a href="" class="contacts-header__whatsup">
+							<img src="img/icons/whats-menu (2).svg" alt="">
+						</a>
+					</div>
+					<div class="top-header__info info-header">
+						<a href="mailto:info@asdpallet.ru" class="info-header__mail _icon-letter">info@asdpallet.ru</a>
+						<time class="info-header__time _icon-clock">с 9:00 до 18:00</time>
+						<a href="" class="info-header__adress _icon-location">Адрес производства</a>
+					</div>
+					<div class="top-header__carts">
+						<a href="" class="top-header__cart">
+							<picture><source srcset="img/main/header/cart.webp" type="image/webp"><img src="img/main/header/cart.png" alt=""></picture>
+						</a>
+						<div class="top-header__value">0</div>
+					</div>
+				</div>
+				<div class="header__bottom bottom-header">
+					<div class="bottom-header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item menu__item_submenu"><a href="" class="menu__link menu__link_open _icon-arrow-down-menu">Пиломатериалы</a>
+									<div class="menu__submenu">
+										<button type="button" class="menu__close _icon-close"></button>
+										<ul class="menu__sublist1">
+											<li class="menu__subitem1"><a href="" class="menu__sublink">Доски обрезные сухие</a>
+											<li class="menu__subitem1"><a href="" class="menu__sublink">Доски сухие строганные</a>
+											<li class="menu__subitem1"><a href="" class="menu__sublink">Имитация бруса и бревна</a>
+											<li class="menu__subitem1"><a href="" class="menu__sublink">Брусок сухой строганный</a>
+											<li class="menu__subitem1"><a href="" class="menu__sublink">Рейка сухая строганная</a>
+											<li class="menu__subitem1"><a href="" class="menu__sublink">Шпунт (доска пола)</a>
+											<li class="menu__subitem1"><a href="" class="menu__sublink">Доска террасная</a>
+											<li class="menu__subitem1"><a href="" class="menu__sublink">Доска сухая строганная
+													завальцованная</a>
+										</ul>
+										<button type="button" class="menu__back _icon-arrow-left">Вернуться в меню</button>
+									</div>
+
+								</li>
+								<li class="menu__item"><a href="" class="menu__link _icon-arrow-down-menu">Услуги</a></li>
+								<li class="menu__item menu__item_spollers"><a href="" class="menu__link menu__link_open2 _icon-arrow-down-menu">Технологические поддоны</a>
+									<ul class="menu__sublist2">
+										<li class="menu__subitem1"><a href="" class="menu__sublink">Поддоны 1</a>
+										<li class="menu__subitem1"><a href="" class="menu__sublink">Поддоны 2</a>
+									</ul>
+								</li>
+								<li class="menu__item"><a href="" class="menu__link _icon-arrow-down-menu">Ящики поддоны</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Доставка</a></li>
+								<li class="menu__item"><a href="" class="menu__link">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="bottom-header__register">
+						<a href="" class="bottom-header__enter _icon-exit">ВХОД</a>
+						<a href="" class="bottom-header__reg _icon-register">регистрация</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="cart">
+			<section class="cart__main main-cart">
+				<div class="main-cart__container">
+					<div class="main-cart__breadcrumbs breadcrumbs">
+						<ul class="breadcrumbs__items">
+							<li class="breadcrumbs__item">
+								<a href="" class="breadcrumbs__link">Главная</a>
+							</li>
+							<li class="breadcrumbs__item _icon-arrow-left">корзина
+							</li>
+						</ul>
+					</div>
+					<div class="main-cart__row">
+						<h2 class="main-cart__title title">корзина</h2>
+						<button type="button" class="main-cart__delete _icon-close">Очистить корзину</button>
+					</div>
+					<div class="main-cart__actions actions-cart">
+						<div class="actions-cart__row">
+							<div class="actions-cart__column">
+								<ul class="actions-cart__list">
+									<li class="actions-cart__titles">Товар</li>
+									<li class="actions-cart__titles">Цена, руб.</li>
+									<li class="actions-cart__titles">Кол-во</li>
+									<li class="actions-cart__titles">Сумма, руб.</li>
+								</ul>
+								<div class="actions-cart__products">
+									<div class="actions-cart__product product-cart">
+										<div class="product-cart__body">
+											<div class="product-cart__img">
+												<picture><source srcset="img/product/main/image.webp" type="image/webp"><img src="img/product/main/image.jpg" alt=""></picture>
+											</div>
+											<div class="product-cart__info">
+												<p>
+													Брусок 75х75х6000 мм, хвоя, сорт 1, свежий лес, ГОСТ
+												</p>
+												<p>
+													<span>Артикул</span> 78548
+												</p>
+											</div>
+										</div>
+										<div data-value="458.05" class="product-cart__price"></div>
+										<div class="product-cart__quantity quantity">
+											<button type="button" class="quantity__button quantity__button_plus"></button>
+											<div class="quantity__input">
+												<input autocomplete="off" type="text" name="form[]" value="1" class="quantity__inp">
+											</div>
+											<button type="button" class="quantity__button quantity__button_minus"></button>
+										</div>
+										<div data-value="" class="product-cart__totalprice"></div>
+										<button type="button" class="product-cart__del _icon-close"></button>
+									</div>
+									<div class="actions-cart__product product-cart">
+										<div class="product-cart__body">
+											<div class="product-cart__img">
+												<picture><source srcset="img/product/main/image.webp" type="image/webp"><img src="img/product/main/image.jpg" alt=""></picture>
+											</div>
+											<div class="product-cart__info">
+												<p>
+													Брусок 75х75х6000 мм, хвоя, сорт 1, свежий лес, ГОСТ
+												</p>
+												<p>
+													<span>Артикул</span> 78548
+												</p>
+											</div>
+										</div>
+										<div data-value="697.05" class="product-cart__price"></div>
+										<div class="product-cart__quantity quantity">
+											<button type="button" class="quantity__button quantity__button_plus"></button>
+											<div class="quantity__input">
+												<input autocomplete="off" type="text" name="form[]" value="1" class="quantity__inp">
+											</div>
+											<button type="button" class="quantity__button quantity__button_minus"></button>
+										</div>
+										<div data-value="" class="product-cart__totalprice"></div>
+										<button type="button" class="product-cart__del _icon-close"></button>
+									</div>
+									<div class="actions-cart__product product-cart">
+										<div class="product-cart__body">
+											<div class="product-cart__img">
+												<picture><source srcset="img/product/main/image.webp" type="image/webp"><img src="img/product/main/image.jpg" alt=""></picture>
+											</div>
+											<div class="product-cart__info">
+												<p>
+													Брусок 75х75х6000 мм, хвоя, сорт 1, свежий лес, ГОСТ
+												</p>
+												<p>
+													<span>Артикул</span> 78548
+												</p>
+											</div>
+										</div>
+										<div data-value="697.05" class="product-cart__price"></div>
+										<div class="product-cart__quantity quantity">
+											<button type="button" class="quantity__button quantity__button_plus"></button>
+											<div class="quantity__input">
+												<input autocomplete="off" type="text" name="form[]" value="1" class="quantity__inp">
+											</div>
+											<button type="button" class="quantity__button quantity__button_minus"></button>
+										</div>
+										<div data-value="" class="product-cart__totalprice"></div>
+										<button type="button" class="product-cart__del _icon-close"></button>
+									</div>
+								</div>
+								<div class="actions-cart__total total-cart">
+									<div class="total-cart__row">
+										<div class="total-cart__label">Сумма:</div>
+										<div data-totalvalue="" class="total-cart__price"></div>
+									</div>
+									<div class="total-cart__row">
+										<div class="total-cart__label">Итого:</div>
+										<div data-totalvalue="" class="total-cart__price"></div>
+									</div>
+								</div>
+							</div>
+							<div class="actions-cart__column">
+								<div class="actions-cart__titles">Адрес доставки</div>
+								<form action="#" class="actions-cart__form form-actions">
+									<div class="form-actions__label">Регион:</div>
+									<div class="form-actions__inp">
+										<input autocomplete="off" type="text" name="form[]" placeholder="Москва" class="form-actions__input">
+									</div>
+									<div class="form-actions__label">Город:</div>
+									<div class="form-actions__inp">
+										<input autocomplete="off" type="text" name="form[]" placeholder="Москва" class="form-actions__input">
+									</div>
+									<div class="form-actions__label">Адрес:</div>
+									<div class="form-actions__inp">
+										<textarea name="form[]" class="form-actions__area"></textarea>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="cart__sale sale-cart">
+				<div class="sale-cart__container">
+					<form action="#" class="sale-cart__form">
+						<div class="sale-cart__column">
+							<ul class="sale-cart__list">
+								<li class="sale-cart__title">Покупатель</li>
+								<li class="sale-cart__title">Я зарегистрирован</li>
+							</ul>
+							<div class="sale-cart__subtitle">Зарегистрироваться</div>
+							<div class="sale-cart__checkboxes">
+								<div class="sale-cart__checkbox checkbox">
+									<input id="c_1" class="checkbox__input" checked type="radio" value="1" name="form[]">
+									<label for="c_1" class="checkbox__label">Да</label>
+								</div>
+								<div class="sale-cart__checkbox checkbox">
+									<input id="c_2" class="checkbox__input" type="radio" value="2" name="form[]">
+									<label for="c_2" class="checkbox__label">Нет</label>
+								</div>
+							</div>
+							<div class="sale-cart__inputs">
+								<div class="sale-cart__inp">
+									<div class="sale-cart__label">Имя:<span>*</span> </div>
+									<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="sale-cart__input">
+								</div>
+								<div class="sale-cart__inp">
+									<div class="sale-cart__label">Фамилия:<span>*</span></div>
+									<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="sale-cart__input">
+								</div>
+								<div class="sale-cart__inp">
+									<div class="sale-cart__label">Телефон:<span>*</span></div>
+									<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="sale-cart__input">
+								</div>
+								<div class="sale-cart__inp">
+									<div class="sale-cart__label">E-mail:<span>*</span></div>
+									<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="sale-cart__input">
+								</div>
+
+							</div>
+						</div>
+						<div class="sale-cart__column">
+							<div class="sale-cart__title">Способ доставки</div>
+							<div class="sale-cart__text">
+								<p>
+									При заказе от 3000 руб. доставим бесплатно в пределах МКАД, а за пределы МКАД (до 10 км) при
+									заказе от 5000 руб.
+								</p>
+							</div>
+							<div class="sale-cart__checkboxes">
+								<div class="sale-cart__checkbox checkbox">
+									<input id="c_3" class="checkbox__input" checked type="radio" value="3" name="form[]2">
+									<label for="c_3" class="checkbox__label">Доставка по Москве в
+										пределах МКАД - 290₽
+										Заказ оформленный до 16:00 доставляется на следующий день, заказ оформленный после
+										16:00 доставляется через день.</label>
+								</div>
+								<div class="sale-cart__checkbox checkbox">
+									<input id="c_4" class="checkbox__input" type="radio" value="4" name="form[]2">
+									<label for="c_4" class="checkbox__label">Экспресс-доставка по
+										Москве в пределах МКАД - 350₽</label>
+								</div>
+							</div>
+							<div class="sale-cart__title">Способ оплаты</div>
+							<div class="sale-cart__checkboxes">
+								<div class="sale-cart__checkbox checkbox">
+									<input id="c_5" data-error="Ошибка" class="checkbox__input" checked type="radio" value="5" name="form[]3">
+									<label for="c_5" class="checkbox__label">Оплата
+										наличными</label>
+								</div>
+								<div class="sale-cart__checkbox checkbox">
+									<input id="c_6" data-error="Ошибка" class="checkbox__input" type="radio" value="6" name="form[]3">
+									<label for="c_6" class="checkbox__label">Оплата картами
+										Visa/MasterCard онлайн</label>
+								</div>
+								<div class="sale-cart__comments">
+									<div class="sale-cart__comment">Комментарий</div>
+									<textarea name="form[]" class="sale-cart__area"></textarea>
+								</div>
+								<button type="submit" class="sale-cart__button">оформить заказ</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<a href="" class="top-header__logo">
+					<div class="top-header__img">
+						<picture><source srcset="img/main/header/logo.webp" type="image/webp"><img src="img/main/header/logo.png" alt=""></picture>
+					</div>
+					<div class="top-header__name">Производство сухой и
+						строганной доски</div>
+				</a>
+				<div class="footer__contacts">
+					<div class="top-header__contacts contacts-header">
+						<div class="contacts-header__contacts">
+							<a href="tel:88127407606" class="contacts-header__tel _icon-phone">+ 7 (812) 740-76-06</a>
+						</div>
+						<a href="" class="contacts-header__telegramm">
+							<img src="img/icons/telegramm.svg" alt="">
+						</a>
+						<a href="" class="contacts-header__whatsup">
+							<img src="img/icons/whats-menu (2).svg" alt="">
+						</a>
+					</div>
+					<div class="top-header__info info-header">
+						<a href="mailto:info@asdpallet.ru" class="info-header__mail _icon-letter">info@asdpallet.ru</a>
+						<time class="info-header__time _icon-clock">с 9:00 до 18:00</time>
+						<a href="" class="info-header__adress _icon-location">Адрес производства</a>
+					</div>
+				</div>
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a href="" class="footer__link">О компании</a>
+					</li>
+					<li class="footer__item">
+						<a href="" class="footer__link">Каталог</a>
+					</li>
+					<li class="footer__item">
+						<a href="" class="footer__link">Гарантия</a>
+					</li>
+					<li class="footer__item">
+						<a href="" class="footer__link">Доставка</a>
+					</li>
+				</ul>
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a href="" class="footer__link">Полезное</a>
+					</li>
+					<li class="footer__item">
+						<a href="" class="footer__link">Блог о пиломатериалах</a>
+					</li>
+					<li class="footer__item">
+						<a href="" class="footer__link">Контакты</a>
+					</li>
+				</ul>
+				<div class="footer__socials">
+					<a href="" class="footer__social _icon-insta"></a>
+					<a href="" class="footer__social _icon-vk"></a>
+					<a href="" class="footer__social _icon-ytube"></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20230530133809"></script>
+</body>
+
+</html>
